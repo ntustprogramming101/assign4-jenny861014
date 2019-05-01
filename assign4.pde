@@ -200,58 +200,13 @@ void draw() {
         if(soilHealth[i][j]== 0) image(soilEmpty,i * SOIL_SIZE,j * SOIL_SIZE);
 
         if(soilHealth[i][j]>0 && soilHealth[i][j]<=3 ){
-          image(soils[0][0],i * SOIL_SIZE,j * SOIL_SIZE);}
+          image(soils[areaIndex][0],i * SOIL_SIZE,j * SOIL_SIZE);}
         if(soilHealth[i][j]>=4 && soilHealth[i][j]<=6){
-          image(soils[0][1],i * SOIL_SIZE,j * SOIL_SIZE);}
+          image(soils[areaIndex][1],i * SOIL_SIZE,j * SOIL_SIZE);}
         if(soilHealth[i][j]>=7 && soilHealth[i][j]<=9){
-          image(soils[0][2],i * SOIL_SIZE,j * SOIL_SIZE);}
+          image(soils[areaIndex][2],i * SOIL_SIZE,j * SOIL_SIZE);}
         if(soilHealth[i][j]>=10 && soilHealth[i][j]<=12 ){
-          image(soils[0][3],i * SOIL_SIZE,j * SOIL_SIZE);}
-          
-        if(soilHealth[i][j]>0 && soilHealth[i][j]<=3 ){
-          image(soils[1][0],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=4 && soilHealth[i][j]<=6 ){
-          image(soils[1][1],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=7 && soilHealth[i][j]<=9 ){
-          image(soils[1][2],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=10 && soilHealth[i][j]<=12 ){
-          image(soils[1][3],i * SOIL_SIZE,j * SOIL_SIZE);}
-          
-        if(soilHealth[i][j]>0 && soilHealth[i][j]<=3 ){
-          image(soils[2][0],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=4 && soilHealth[i][j]<=6 ){
-          image(soils[2][1],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=7 && soilHealth[i][j]<=9 ){
-          image(soils[2][2],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=10 && soilHealth[i][j]<=12 ){
-          image(soils[2][3],i * SOIL_SIZE,j * SOIL_SIZE);}
-          
-        if(soilHealth[i][j]>0 && soilHealth[i][j]<=3 ){
-          image(soils[3][0],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=4 && soilHealth[i][j]<=6 ){
-          image(soils[3][1],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=7 && soilHealth[i][j]<=9 ){
-          image(soils[3][2],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=10 && soilHealth[i][j]<=12 ){
-          image(soils[3][3],i * SOIL_SIZE,j * SOIL_SIZE);}
-          
-        if(soilHealth[i][j]>0 && soilHealth[i][j]<=3 ){
-          image(soils[4][0],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=4 && soilHealth[i][j]<=6 ){
-          image(soils[4][1],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=7 && soilHealth[i][j]<=9 ){
-          image(soils[4][2],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=10 && soilHealth[i][j]<=12 ){
-          image(soils[4][3],i * SOIL_SIZE,j * SOIL_SIZE);}
-          
-        if(soilHealth[i][j]>0 && soilHealth[i][j]<=3 ){
-          image(soils[5][0],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=4 && soilHealth[i][j]<=6 ){
-          image(soils[5][1],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=7 && soilHealth[i][j]<=9 ){
-          image(soils[5][2],i * SOIL_SIZE,j * SOIL_SIZE);}
-        if(soilHealth[i][j]>=10 && soilHealth[i][j]<=12 ){
-          image(soils[5][3],i * SOIL_SIZE,j * SOIL_SIZE);}
+          image(soils[areaIndex][3],i * SOIL_SIZE,j * SOIL_SIZE);}
           
         //stone
         
